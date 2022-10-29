@@ -17,5 +17,5 @@ jobs:
       run: echo "The current time and date in GitHub is $(date)"
     - name: Echo information about the context
       run: echo "head_ref - ${{ github.head_ref }}, owner - ${{ github.repository_owner }}, run number - ${{ github.run_number }}"
-    _ name: List runner name
-      run: echo "runne name - $ {{ runner.name }}"
+    - name: List runner name
+      run: echo "runner name - $ {{ runner.name }}"
