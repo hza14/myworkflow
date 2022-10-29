@@ -18,4 +18,4 @@ jobs:
     - name: Echo information about the context
       run: echo "head_ref - ${{ github.head_ref }}, owner - ${{ github.repository_owner }}, run number - ${{ github.run_number }}"
     - name: List runner OS
-      run: echo "runner name - ${{ runner.name }}"
+      run: echo "runner OS - ${{ runner.os }}"
